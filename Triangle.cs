@@ -10,13 +10,13 @@ namespace LabbPolymorfism
     {
         public double Base { get; set; }
         public double Height { get; set; }
-        public Triangle()
+        public Triangle() //Changes the values to the correct names/size
         {
             Base = 5;
             Height = 7;
             Name = "Triangle";
         }
-        public override double Area()
+        public override double Area() //Calculates the area and overrides the virtual mehod in Geometry.cs.
         {
             area = Math.Round((Base * Height) / 2, 2);
             return area;

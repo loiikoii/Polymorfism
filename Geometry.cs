@@ -10,7 +10,7 @@ namespace LabbPolymorfism
     {
         public string Name { get; set; } = string.Empty;
         public double area;
-        public virtual double Area()
+        public virtual double Area() //Default if shape is unspecified
         {
             return area;
         }

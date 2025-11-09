@@ -15,8 +15,7 @@
                 new Rectangle(),
                 new Triangle()
             };
-            //Console.WriteLine($"Area of square: {Square.Area()}cm²");
-            foreach(var shape in shapes)
+            foreach(var shape in shapes) //Prints out message in console, shape.Name & shape.Area will change accordingly to the right shape.
             {
                 Console.WriteLine($"Area of {shape.Name}: {shape.Area()}cm²");
             }
